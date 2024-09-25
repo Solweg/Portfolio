@@ -16,50 +16,51 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2024 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Votre entreprise ?</h3>
+            <h4 className="vertical-timeline-element-subtitle">Présentiel en Finistère, hybride ou distanciel dans d'autres départements</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            Développeuse Front-end, Webmaster, SEO, Agile.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2024 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Développeuse Web Junior</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Formation Développement Web</h3>
+            <h4 className="vertical-timeline-element-subtitle">Openclassroom</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+            Conception de sites web dynamiques, responsives, création d'API et gestion de bases de données, optimisation des performances, référencement gestion de projet
+            </p>
+          </VerticalTimelineElement>
+          
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2012 - 2017"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title"> M1: Théâtre et Culture du monde</h3>
+            <h4 className="vertical-timeline-element-subtitle">Université de Franche-Comté</h4>
+            <p>
+              Recherche en sociologie, arts, Histoire et antropologie. 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2009 - 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Employée dans la restauration</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bretagne, Bourgogne-Franche-Comté</h4>
             <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
+            Responsable de salle, cheffe d'équipe et serveuse.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
