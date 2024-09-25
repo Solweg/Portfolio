@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -45,12 +45,12 @@ function Expertise() {
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
-            <h1>Expertise</h1>
+            <h1>Compétences</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faFacebook} size="3x"/>
+                    <h3>Développement Front-end</h3>
+                    <p>En tant que développeur web, j'ai une forte expertise en développement front-end avec un accent particulier sur l’accessibilité. Je transforme des maquettes en interfaces réactives en utilisant des technologies comme HTML5, CSS3, JavaScript, et React. J'assure la compatibilité des sites sur tous les appareils tout en respectant les bonnes pratiques d'accessibilité (WCAG).</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +61,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Back-end et Intégration</h3>
+                    <p>Je maîtrise le développement back-end avec des technologies telles que Node.js, Express, et des bases de données comme MongoDB et MySQL. J'intègre des API et gère l’authentification ainsi que la sécurité des données pour offrir des solutions robustes et évolutives.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +73,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Organisation, SEO et Référencement</h3>
+                    <p>Je veille à la performance des sites avec une attention particulière au SEO et à l'optimisation pour le référencement naturel. J'utilise des outils comme Google Analytics, Chrome DevTools, et mets en place des pipelines CI/CD pour assurer une gestion de projet efficace et une mise en production fluide.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

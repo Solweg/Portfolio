@@ -10,7 +10,7 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Parcours professionnel</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -32,7 +32,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
+            <h3 className="vertical-timeline-element-title">Développeuse Web Junior</h3>
             <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
             <p>
               Frontend Development, Backend Development, User Experience, Team Leading
