@@ -1,10 +1,20 @@
+:root{
+  --color1:#010101ff;
+  --color2: #0A5A5Aff;;
+  --color3:#88BBA9ff;
+  --color4: #eedec5;
+  --color5: #0A5A5Aff;
+  --color6:rgb(39, 40, 34);
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: var(--color5)scale;
   font-size: 1.1rem !important;
 }
 
@@ -15,7 +25,7 @@ code {
 
 .main-container {
   position: relative;
-  background-color: #0d1116;
+  background-color: var(--color1);
 
 }
 
@@ -24,18 +34,18 @@ a {
 }
 
 a:hover {
-  color: #5000ca;
+  color: var(--color2);
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 p, a, h1, h2, h3, h4, h5, label, button {
-  color: white;
+  color: var(--color3);
   font-family: "Lato", sans-serif;
 }
 
 .navigation-bar {
   justify-content: space-between;
-  background-color: #0d1116;
+  background-color: var(--color1);
 
   button {
     font-size: 1.1rem;
@@ -51,7 +61,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
 .navigation-bar-responsive {
   span, p {
-    color: #0d1116;
+    color: var(--color1);
     font-family: "Lato", sans-serif;
   }
 }
@@ -93,31 +103,31 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 
 .light-mode {
-  background-color: #f8f9fa;
+  background-color: var(--color4);
 
   .navigation-bar {
-    background-color: #f8f9fa;
+    background-color: var(--color4);
   }
 
   p, a, h1, h2, h3, h4, h5, label, button {
-    color: #0d1116;
+    color: var(--color1);
   }
 
   a:hover {
-    color: #5000ca;
+    color: var(--color2);
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
 
   .navigation-bar svg {
-    color: #0d1116;
+    color: var(--color1);
   }
 
   .about-section {
-    background-image: url("./assets/images/bg-light.png");
+    background-image: url("./assets/images/day-light.webp");
   }
 
   .skills-container svg {
-    color: #0d1116;
+    color: var(--color1);
   }
 
   .chip {
@@ -134,7 +144,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
-    color: gray;
+    color: var(--color5);
   }
 
   .vertical-timeline-element-content-arrow {
@@ -142,7 +152,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .flex-chips .chip-title {
-    color: #0d1116;
+    color: var(--color1);
   }
 }
 

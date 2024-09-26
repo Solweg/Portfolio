@@ -10,7 +10,7 @@
     width: 100%;
     padding: 0px 15%;
     min-height: 700px;
-    background-image: url("../images/bg-dark.png");
+    background-image: url("../images/header-dark.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -25,7 +25,7 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
-        color: white;
+        color: var(--color3);
 
         svg {
             font-size: 1.8em;
@@ -82,7 +82,7 @@
             padding: 10px 15px;
             list-style:none;
             font-size:13px;
-            color:white;
+            color:var(--color3);
             width: 10%;
         }
 
@@ -126,7 +126,7 @@
             display: flex !important;
             flex-direction: row;
             gap: 10px;
-            color: white;
+            color: var(--color3);
     
             svg {
                 font-size: 1.8em;

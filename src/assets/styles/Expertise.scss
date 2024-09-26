@@ -5,7 +5,7 @@
     text-align: left;
 
     svg {
-        color: white;
+        color: var(--color3);
     }
 }
   
@@ -21,14 +21,14 @@
 }
   
 .chip {
-    color: rgb(39, 40, 34) !important;
-    background-color: white !important;
+    color: var(--color6) !important;
+    background-color: var(--color3) !important;
     font-size: 0.8rem !important;
     height: 25px !important;
   
     span {
         font-family: 'Courier Prime', monospace;
-        color: rgb(39, 40, 34);
+        color: var(--color6);
     }
   
     svg {
@@ -41,7 +41,7 @@
     margin: 0.5;
 
     .chip-title {
-        color: white;
+        color: var(--color3);
         padding-right: 10px;
     }
 }
@@ -57,7 +57,7 @@
 }
 
 .flex-chips .MuiChip-outlined span {
-    color: rgb(39, 40, 34);
+    color: var(--color6);
 }
 
 @media screen {
