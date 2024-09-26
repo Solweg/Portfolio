@@ -1,70 +1,81 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import Booki from '../assets/images/booki.png';
+import kasa from '../assets/images/kasa.png';
+import sophieBluel from "../assets/images/sophieBluel.png";
+import grimoire from "../assets/images/monvieuxgrimoire.png"
+
 import '../assets/styles/Project.scss';
 
 function Project() {
-    return(
+    return (
     <div className="projects-container" id="projects">
         <h1>Projets</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://openclassrooms.com/fr/paths/899/projects/1247/scenario" target="_blank" rel="noreferrer">
+                    <img src={kasa} className="zoom" alt="Kasa project thumbnail" width="100%" />
+                </a>
+                <a href="https://openclassrooms.com/fr/paths/899/projects/1247/scenario" target="_blank" rel="noreferrer">
+                    <h2>Kasa : Application de location immobilière</h2>
+                </a>
+                <p>
+                    Ce projet consistait à développer une application de location immobilière en React, en suivant les maquettes Figma fournies. L'application est entièrement responsive et propose des composants réutilisables ainsi que la gestion de la navigation avec React Router.
+                </p>
+                <p>
+                    <strong>Problématiques rencontrées et solutions :</strong> La gestion des routes et des erreurs, notamment pour les URL non valides, a nécessité l'implémentation d'une page dédiée. L'adaptation du design aux écrans de différentes tailles a également été un défi, résolu grâce à l'utilisation des flexbox.
+                </p>
+                <p>
+                    <strong>Compétences développées :</strong> Maîtrise de **React Router**, utilisation des hooks `useState` et `useEffect`, et développement d'un **responsive design** optimal.
+                </p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/Solweg/Projet-2" target="_blank" rel="noreferrer">
+                    <img src={Booki} className="zoom" alt="Booki project thumbnail" width="100%" />
+                </a>
+                <a href="https://github.com/Solweg/Projet-2" target="_blank" rel="noreferrer">
+                    <h2>Booki : Intégration de la page d'accueil d'un site de voyage</h2>
+                </a>
+                <p>
+                    Ce projet consistait à intégrer une page d'accueil à partir d'une maquette fournie via Figma, en respectant les principes du responsive design.
+                </p>
+                <p>
+                    <strong>Problématiques rencontrées et solutions :</strong> L'adaptation du design à différents appareils a posé des difficultés, notamment pour ajuster les marges et tailles des éléments. J'ai utilisé les **DevTools** pour tester les résolutions et optimiser les **flexbox**. De plus, le **placeholder sous Firefox** ne changeait pas correctement de couleur, résolu en ajustant l'opacité à 1.
+                </p>
+                <p>
+                    <strong>Compétences développées :</strong> J'ai acquis une bonne maîtrise de Figma pour découper les maquettes, de Git/GitHub pour le contrôle de version, et des techniques de responsive design avec l'optimisation des flexbox.
+                </p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://openclassrooms.com/fr/paths/899/projects/1157/scenario" target="_blank" rel="noreferrer">
+                    <img src={sophieBluel} className="zoom" alt="Sophie Bluel project thumbnail" width="100%" />
+                </a>
+                <a href="https://openclassrooms.com/fr/paths/899/projects/1157/scenario" target="_blank" rel="noreferrer">
+                    <h2>Sophie Bluel : Système de gestion de projets avec filtrage dynamique et authentification</h2>
+                </a>
+                <p>
+                    Dans ce projet, j'ai développé une application permettant de gérer des projets avec un système d'authentification sécurisé.
+                </p>
+                <p>
+                    <strong>Problématiques rencontrées et solutions :</strong> L'API ne fournissant pas de filtre "Tous", j'ai dû créer manuellement ce bouton et gérer la sélection dynamique pour afficher tous les projets. Concernant la gestion de la connexion, j'ai implémenté JWT pour sécuriser l'authentification et les routes avec un middleware.
+                </p>
+                <p>
+                    <strong>Compétences développées :</strong> J'ai renforcé mes compétences en manipulation du DOM, en authentification avec JWT, et en gestion des API pour afficher et manipuler dynamiquement les données.
+                </p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://openclassrooms.com/fr/paths/899/projects/1335/scenario" target="_blank" rel="noreferrer">
+                    <img src={grimoire} className="zoom" alt="Mon vieux grimoire project thumbnail" width="100%" />
+                </a>
+                <a href="https://openclassrooms.com/fr/paths/899/projects/1335/scenario" target="_blank" rel="noreferrer">
+                    <h2>Mon vieux grimoire : Application de gestion sécurisée avec téléchargement d'images</h2>
+                </a>
+                <p>Ce projet consistait à développer une application avec gestion de l'authentification et fonctionnalités avancées de téléchargement d'images.</p>
+                <p>
+                    <strong>Problématiques rencontrées et solutions :</strong> La gestion de l'**authentification sécurisée** avec des tokens **JWT** et la sécurisation des routes a nécessité une implémentation rigoureuse via un middleware. De plus, le **téléchargement d'images** a présenté des défis en termes de performances et de stockage, résolus par l'optimisation avec **Multer** et **Sharp**.
+                </p>
+                <p>
+                    <strong>Compétences développées :</strong> Gestion sécurisée des **tokens JWT** et **bcrypt**, optimisation des images via **Sharp**, et structuration des **API RESTful** pour des opérations CRUD.
+                </p>
             </div>
         </div>
     </div>
