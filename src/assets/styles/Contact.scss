@@ -1,7 +1,13 @@
-.contact_wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
+.container-contact{
+  .svg-inline--fa{
+    margin: auto ;
+    display: block;
+  }
+  .skills-grid{
+    padding-top: 40px;
+  }
+  .contact-col{
+    text-align: center;
+  }
 }
-
 

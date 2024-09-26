@@ -1,17 +1,44 @@
-import React from 'react';
+import React from "react";
+import '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import '../assets/styles/Contact.scss';
 
+
+
 function Contact() {
-  return (
-    <div id="contact">
-      <div className="items-container">
-        <div className="contact_wrapper">
-          <h1>Contacts</h1>
-          <p>Un projet à réaliser ? Collaborons et faisons-le aboutir ensemble !</p>
+    return (
+    <div className="container container-contact" id="contact">
+        <div className="skills-container">
+            <h1>Contact</h1>
+            <p>Un projet à réaliser ? Collaborons et faisons-le aboutir ensemble !</p>
+            <div className="skills-grid">
+                <div className="contact-col">
+                    <FontAwesomeIcon icon={faEnvelope} size="3x"/>
+                    <h2 className="contact-subtitle">Mail</h2>
+                    <a href="mailto:&#104;&#101;%6ce%6e%65g&#111;%75%67&#117;&#101;&#110;h%65%69%6d&#64;&#121;%61%68&#111;%6f%2e&#102;%72">helenegouguenheim&#64;yahoo.fr</a> 
+                    
+                </div>
+                <div className="contact-col">
+                    <FontAwesomeIcon icon={faLocationDot} size="3x"/>
+                    <h2 className="contact-subtitle">Adresse</h2>
+                    <p>6 rue de l'ordinateur
+                       <br/>40 400, Baie des Serveurs 
+                    </p>
+                   
+                </div>
+                <div className="contact-col">
+                    <FontAwesomeIcon icon={faPhone} size="3x"/>
+                    <h2 className="contact-subtitle">Téléphone</h2>
+                    <p>06 00 00 00 00</p>
+                    
+                </div>
+
+                
+            </div>
         </div>
-      </div>
     </div>
-  );
+    );
 }
 
 export default Contact;
