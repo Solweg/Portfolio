@@ -16,20 +16,20 @@ function Project() {
                     <img src={kasa} className="zoom" alt="Kasa project thumbnail" width="100%" />
                 </a>
                 <div className="projet-description">
-                <a href="https://openclassrooms.com/fr/paths/899/projects/1247/scenario" target="_blank" rel="noreferrer">
-                    <h2>Kasa : Application de location immobilière</h2>
-                </a>
-                <p>
-                    Ce projet consistait à développer une application de location immobilière en <strong>React</strong>, en suivant les maquettes <strong>Figma</strong> fournies. L'application est entièrement responsive et propose des composants réutilisables ainsi que la gestion de la navigation avec <strong>React Router</strong>.
-                </p>
-                
-                    <h3>Problématiques rencontrées et solutions :</h3> 
-                <p>
-                     La gestion des routes et des erreurs, notamment pour les URL non valides, a nécessité l'implémentation d'une page dédiée. L'adaptation du design aux écrans de différentes tailles a également été un défi, résolu grâce à l'utilisation des <strong>flexbox</strong>.
-                </p>
-                
-                    <h3>Compétences développées :</h3> <p>Maîtrise de <strong>React Router</strong>, utilisation des hooks `useState` et `useEffect`, et développement d'un <strong>responsive design</strong> optimal.
-                </p>
+                    <a href="https://openclassrooms.com/fr/paths/899/projects/1247/scenario" target="_blank" rel="noreferrer">
+                        <h2>Kasa : Application de location immobilière</h2>
+                    </a>
+                    <p>
+                        Ce projet consistait à développer une application de location immobilière en <strong>React</strong>, en suivant les maquettes <strong>Figma</strong> fournies. L'application est entièrement responsive et propose des composants réutilisables ainsi que la gestion de la navigation avec <strong>React Router</strong>.
+                    </p>
+                    
+                        <h3>Problématiques rencontrées et solutions :</h3> 
+                    <p>
+                        La gestion des routes et des erreurs, notamment pour les URL non valides, a nécessité l'implémentation d'une page dédiée. L'adaptation du design aux écrans de différentes tailles a également été un défi, résolu grâce à l'utilisation des <strong>flexbox</strong>.
+                    </p>
+                    
+                        <h3>Compétences développées :</h3> <p>Maîtrise de <strong>React Router</strong>, utilisation des hooks `useState` et `useEffect`, et développement d'un <strong>responsive design</strong> optimal.
+                    </p>
                 </div>
             </div>
             <div className="project">
@@ -58,18 +58,18 @@ function Project() {
                     <img src={sophieBluel} className="zoom" alt="Sophie Bluel project thumbnail" width="100%" />
                 </a>
                 <div className="projet-description">
-                <a href="https://github.com/Solweg/Projet-3 target="_blank" rel="noreferrer">
-                    <h2>Sophie Bluel : Système de gestion de projets avec filtrage dynamique et authentification</h2>
-                </a>
-                <p>
-                    Dans ce projet, j'ai développé une application permettant de gérer des projets avec un système d'authentification sécurisé.
-                </p>
-                <p>
-                    <h3>Problématiques rencontrées et solutions :</h3> L'<strong>API</strong> ne fournissant pas de filtre "Tous", j'ai dû créer manuellement ce bouton et gérer la sélection dynamique pour afficher tous les projets. Concernant la gestion de la connexion, j'ai implémenté JWT pour sécuriser l'authentification et les routes avec un middleware.
-                </p>
-                
-                    <h3>Compétences développées :</h3> <p>J'ai renforcé mes compétences en manipulation du DOM, en authentification avec JWT, et en gestion des API pour afficher et manipuler <strong>dynamiquement</strong> les données.
-                </p>
+                    <a href="https://github.com/Solweg/Projet-3" target="_blank" rel="noreferrer">
+                        <h2>Sophie Bluel : Système de gestion de projets avec filtrage dynamique et authentification</h2>
+                    </a>
+                    <p>
+                        Dans ce projet, j'ai développé une application permettant de gérer des projets avec un système d'authentification sécurisé.
+                    </p>
+                    <p>
+                        <h3>Problématiques rencontrées et solutions :</h3> L'<strong>API</strong> ne fournissant pas de filtre "Tous", j'ai dû créer manuellement ce bouton et gérer la sélection dynamique pour afficher tous les projets. Concernant la gestion de la connexion, j'ai implémenté JWT pour sécuriser l'authentification et les routes avec un middleware.
+                    </p>
+                    
+                        <h3>Compétences développées :</h3> <p>J'ai renforcé mes compétences en manipulation du DOM, en authentification avec JWT, et en gestion des API pour afficher et manipuler <strong>dynamiquement</strong> les données.
+                    </p>
                 </div>
             </div>
             <div className="project">
