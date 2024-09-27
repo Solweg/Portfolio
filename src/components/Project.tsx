@@ -12,9 +12,10 @@ function Project() {
         <h1>Projets</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://openclassrooms.com/fr/paths/899/projects/1247/scenario" target="_blank" rel="noreferrer">
+                <a className="projet-img" href="https://github.com/Solweg/Kasa" target="_blank" rel="noreferrer">
                     <img src={kasa} className="zoom" alt="Kasa project thumbnail" width="100%" />
                 </a>
+                <div className="projet-description">
                 <a href="https://openclassrooms.com/fr/paths/899/projects/1247/scenario" target="_blank" rel="noreferrer">
                     <h2>Kasa : Application de location immobilière</h2>
                 </a>
@@ -29,11 +30,13 @@ function Project() {
                 
                     <h3>Compétences développées :</h3> <p>Maîtrise de <strong>React Router</strong>, utilisation des hooks `useState` et `useEffect`, et développement d'un <strong>responsive design</strong> optimal.
                 </p>
+                </div>
             </div>
             <div className="project">
-                <a href="https://github.com/Solweg/Projet-2" target="_blank" rel="noreferrer">
+                <a className="projet-img" href="https://github.com/Solweg/Projet-2" target="_blank" rel="noreferrer">
                     <img src={Booki} className="zoom" alt="Booki project thumbnail" width="100%" />
                 </a>
+                <div className="projet-description">
                 <a href="https://github.com/Solweg/Projet-2" target="_blank" rel="noreferrer">
                     <h2>Booki : Intégration de la page d'accueil d'un site de voyage</h2>
                 </a>
@@ -48,12 +51,14 @@ function Project() {
                 
                     <h3>Compétences développées :</h3> <p>J'ai acquis une bonne maîtrise de <strong>Figma</strong> pour découper les maquettes, de Git/GitHub pour le contrôle de version, et des techniques de <strong>responsive design</strong> avec l'optimisation des <strong>flexbox</strong>.
                 </p>
+                </div>
             </div>
             <div className="project">
-                <a href="https://openclassrooms.com/fr/paths/899/projects/1157/scenario" target="_blank" rel="noreferrer">
+                <a className="projet-img" href="https://github.com/Solweg/Projet-3" target="_blank" rel="noreferrer">
                     <img src={sophieBluel} className="zoom" alt="Sophie Bluel project thumbnail" width="100%" />
                 </a>
-                <a href="https://openclassrooms.com/fr/paths/899/projects/1157/scenario" target="_blank" rel="noreferrer">
+                <div className="projet-description">
+                <a href="https://github.com/Solweg/Projet-3 target="_blank" rel="noreferrer">
                     <h2>Sophie Bluel : Système de gestion de projets avec filtrage dynamique et authentification</h2>
                 </a>
                 <p>
@@ -65,11 +70,13 @@ function Project() {
                 
                     <h3>Compétences développées :</h3> <p>J'ai renforcé mes compétences en manipulation du DOM, en authentification avec JWT, et en gestion des API pour afficher et manipuler <strong>dynamiquement</strong> les données.
                 </p>
+                </div>
             </div>
             <div className="project">
-                <a href="https://openclassrooms.com/fr/paths/899/projects/1335/scenario" target="_blank" rel="noreferrer">
+                <a className="projet-img" href="https://openclassrooms.com/fr/paths/899/projects/1335/scenario" target="_blank" rel="noreferrer">
                     <img src={grimoire} className="zoom" alt="Mon vieux grimoire project thumbnail" width="100%" />
                 </a>
+                <div className="projet-description">
                 <a href="https://openclassrooms.com/fr/paths/899/projects/1335/scenario" target="_blank" rel="noreferrer">
                     <h2>Mon vieux grimoire : Application de gestion sécurisée avec téléchargement d'images</h2>
                 </a>
@@ -80,6 +87,7 @@ function Project() {
                 <p>
                     <h3>Compétences développées :</h3> Gestion sécurisée des <strong>tokens JWT</strong> et <strong> bcrypt</strong> , optimisation des images via <strong> Sharp</strong> , et structuration des <strong> API RESTful</strong>  pour des opérations CRUD.
                 </p>
+                </div>
             </div>
         </div>
     </div>

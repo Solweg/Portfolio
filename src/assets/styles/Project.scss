@@ -14,20 +14,37 @@
 .projects-container .projects-grid .project {
     text-align: left;
 }
-  
+
+.project{
+    border: solid 2px var(--color3);
+    background-color: var(--color7);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.projet-description{
+    padding: 20px;
+}
+
 .project h2:hover {
     text-decoration: underline;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
-  
+.projet-img{
+    padding: 25px;
+    background-color: var(--color3);
+    display: block;
+}  
+
 .zoom {
-    border-radius: 5px;
+    border-radius: 17px;
     transition: transform .2s;
     margin: 0 auto;
 }
   
 .zoom:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
 }
 
 @media screen {
