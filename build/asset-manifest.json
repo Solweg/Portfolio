@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.07df8f6b.css",
+    "main.js": "/Portfolio/static/js/main.19b3ee91.js",
+    "static/js/453.b05d8aa5.chunk.js": "/Portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/monvieuxgrimoire.png": "/Portfolio/static/media/monvieuxgrimoire.87050087a48dc4efc314.png",
+    "static/media/kasa.png": "/Portfolio/static/media/kasa.93b2b2821223ad7faa7e.png",
+    "static/media/sophieBluel.png": "/Portfolio/static/media/sophieBluel.777ffcebd7a2a71c8ed4.png",
+    "static/media/day-light.webp": "/Portfolio/static/media/day-light.fdddd4f700d58b5e3b3b.webp",
+    "static/media/header-dark.webp": "/Portfolio/static/media/header-dark.4aa44400a3b447b64e43.webp",
+    "static/media/booki.png": "/Portfolio/static/media/booki.55a835af9f89022aef79.png",
+    "static/media/moi.webp": "/Portfolio/static/media/moi.97df3f7f55c83a3db1fe.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.07df8f6b.css.map": "/Portfolio/static/css/main.07df8f6b.css.map",
+    "main.19b3ee91.js.map": "/Portfolio/static/js/main.19b3ee91.js.map",
+    "453.b05d8aa5.chunk.js.map": "/Portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07df8f6b.css",
+    "static/js/main.19b3ee91.js"
+  ]
+}
