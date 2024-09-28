@@ -1,8 +1,7 @@
 .skills-container {
-    padding: 5% 10%;
+    padding: 0 20px 100px;
     display: flex;
     flex-direction: column;
-    text-align: left;
 
     svg {
         color: var(--color3);
@@ -13,11 +12,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
+    max-width: 1800px;
+
 }
   
 .skills-container .skills-grid .skill {
     align-items: center;
-    text-align: left;
 }
   
 .chip {

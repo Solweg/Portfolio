@@ -11,7 +11,7 @@ function Contact() {
     <div className="container container-contact" id="contact">
         <div className="skills-container">
             <h1>Contact</h1>
-            <p>Un projet à réaliser ? Collaborons et faisons-le aboutir ensemble !</p>
+            <p className="text-contact">Un projet à réaliser ? Collaborons et faisons-le aboutir ensemble !</p>
             <div className="skills-grid">
                 <div className="contact-col">
                     <FontAwesomeIcon icon={faEnvelope} size="3x"/>
