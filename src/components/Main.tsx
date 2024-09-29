@@ -11,7 +11,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src={moiImage} alt="Hélène Gouguenheim" />
+          <img src={moiImage} alt="Hélène Gouguenheim"/>
         </div>
         <div className="content">
           <div className="social_icons">

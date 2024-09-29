@@ -16,13 +16,21 @@
 
 .project{
     border: solid 2px var(--color1);
-    background-color: var(--color5);
+    background-color: white;
     border-radius: 20px;
     overflow: hidden;
     max-width: 667px;
 
     .light-mode & {
         background-color: white;
+        border: solid 2px var(--color3);
+        box-shadow: 0 0 20px #00000099;
+    }
+    p, h2, h3 {
+        color:var(--color1);
+    }
+    strong{
+        color:var(--color6);
     }
 }
 
@@ -30,9 +38,21 @@
     padding: 20px;
 }
 
-.project h2:hover {
-    text-decoration: underline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+.project h2{
+    margin-top:0;
+    font-size: 2em;
+    text-align: center;
+    &:hover {
+        text-decoration: underline;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+}
+.project h3{
+    margin: .5em 0 0;
+    font-size: 1.25em;
+}
+.project p{
+    margin: 0;
 }
 .projet-img{
     padding: 25px;
@@ -48,6 +68,25 @@
   
 .zoom:hover {
     transform: scale(1.15);
+}
+
+.project-button{
+    display: inline-block;
+    padding: 0.25em 1em;
+    border-radius: 20px;
+    border: solid 1px currentColor;
+    color: var(--color6);
+    background-color:var(--color3);
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    margin: 0;
+    &s{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding:20px;
+    }
 }
 
 @media screen {
