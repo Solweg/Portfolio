@@ -59,9 +59,17 @@
 .flex-chips .MuiChip-outlined span {
     color: var(--color6);
 }
+.light-mode {
+.skills-container, .container-contact{
+
+    svg, h2, h3{
+      color: var(--color2);
+    }
+}
+}
 
 @media screen {
-    @media (max-width: 768px) {
+    @media (max-width: 1200px) {
         .skills-container {
             display: block;
             padding-left: 5%;
@@ -69,7 +77,7 @@
         }
     
         .skills-container .skills-grid {
-            display: initial;
+            grid-template-columns: 1fr;
         }
         
         .skills-container .skills-grid .skill {
