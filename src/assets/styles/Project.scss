@@ -9,101 +9,150 @@
 .projects-container .projects-grid {
     display: flex;
     justify-content: center;
+    align-items: flex-start; /* Les cartes commencent toutes en haut */
     gap: 50px;
     flex-wrap: wrap;
 }
   
-
-.project{
+.project {
     border: solid 2px var(--color1);
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
     max-width: 667px;
-
+    min-height: 400px; /* Définit une hauteur minimale pour que les cartes aient une taille uniforme */
+    display: flex;
+    flex-direction: column; /* Permet de séparer le contenu et le bouton */
+    
     .light-mode & {
         background-color: white;
         border: solid 2px var(--color3);
         box-shadow: 0 0 20px #00000099;
     }
     p, h2, h3 {
-        color:var(--color1);
+        color: var(--color1);
     }
-    strong{
-        color:var(--color6);
+    strong {
+        color: var(--color6);
     }
 }
 
-.projet-description{
-    padding: 20px;
+.projet-description {
+    padding: 10px;
+    flex-grow: 1; /* Prend tout l'espace disponible sauf celui du bouton */
+    transition: height 0.3s ease-out, opacity 0.3s ease-out;
+    overflow: hidden;
 }
 
-.project h2{
-    margin-top:0;
+.project h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-size: 2em;
     text-align: center;
     &:hover {
         text-decoration: underline;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     }
 }
-.project h3{
-    margin: .5em 0 0;
+
+.project h3 {
+    margin: 0.5em 0 0;
     font-size: 1.25em;
 }
-.project p{
+
+.project p {
     margin: 0;
 }
-.projet-img{
+
+.project-subtitle{
+    text-align: center;
+}
+
+.project-content{
+    padding: 0 25px;
+}
+
+.projet-img {
     padding: 25px;
     background-color: var(--color3);
     display: block;
-}  
+}
 
 .zoom {
     border-radius: 17px;
-    transition: transform .2s;
+    transition: transform 0.2s;
     margin: 0 auto;
 }
-  
+
 .zoom:hover {
     transform: scale(1.15);
 }
 
-.project-button{
+.project-button {
     display: inline-block;
     padding: 0.25em 1em;
-    border-radius: 20px;
-    border: solid 1px currentColor;
-    color: var(--color6);
-    background-color:var(--color3);
+    color: var(--color7);
+    background-color: var(--color4);
     font-weight: bold;
     width: 180px;
     text-align: center;
     margin: 0;
-    &s{
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        padding:20px;
-    }
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
-@media screen {
-    @media (max-width: 700px) {
-        .projects-container {
-            display: block;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-  
-      
-        .projects-container .projects-grid .project {
-            padding-bottom: 5%;
-        }
-        .project-buttons{
-            flex-direction: column;
-            align-items: center;
-        }
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px 0 20px 0;
+}
+
+/* Styles pour le bouton "Voir plus" */
+.collapse-button {
+    background-color: transparent;
+    border: none;
+    color: var(--color3);
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.collapse-button:hover {
+    color: var(--color1);
+}
+
+.collapse-button-container {
+    display: flex;
+    justify-content: center; /* Centre le bouton */
+}
+
+.collapse-button {
+    font-weight: bold; /* Met le texte en gras */
+    text-decoration: underline; /* Ajoute le soulignement */
+    color: var(--color6); /* Applique la couleur principale */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.collapse-button:hover {
+    color: var(--color3); /* Change la couleur lors du survol */
+}
+
+@media screen and (max-width: 700px) {
+    .projects-container {
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .projects-container .projects-grid .project {
+        padding-bottom: 5%;
+    }
+    
+    .project-buttons {
+        flex-direction: column;
+        align-items: center;
     }
 }
