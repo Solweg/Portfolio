@@ -130,7 +130,7 @@ function Project() {
                    
                         <h2>Mon vieux grimoire</h2>
                    
-                    <p className="project-subtitle">Application de gestion sécurisée avec téléchargement d'images</p>
+                    <p className="project-subtitle">Application de gestion sécurisée <br/> avec téléchargement d'images</p>
                     <div className="project-buttons">
                         <a className="project-button" href="https://github.com/Solweg/Grimoire">Code Source</a>
                     </div>
