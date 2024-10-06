@@ -1,5 +1,5 @@
 .skills-container {
-    padding: 0 20px 100px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
 
@@ -70,45 +70,25 @@
 
 .download-container {
   text-align: center;
-  margin: 20px 0;
+  margin: 100px 0 0px;
+
 }
 
 .download-button {
-  background-color: var(--color3);
-  color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1rem;
+  background-color: var(--color4);
+  color: var(--color6);
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 2rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition:  0.3s ease;
 }
 
 .download-button:hover {
-  background-color: var(--color1);
+  background-color: var(--color2);
+  color: var(--color3);
 }
-/* Style pour centrer le bouton de téléchargement */
-.download-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.download-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.download-button:hover {
-    background-color: #45a049;
-}
-
 
 @media screen {
     @media (max-width: 1200px) {

@@ -88,7 +88,7 @@ function Expertise() {
                     </div>
                 </div>
 
-                {/* Ajouter le bouton de téléchargement après les compétences */}
+                
                 <DownloadButton />
             </div>
         </div>
