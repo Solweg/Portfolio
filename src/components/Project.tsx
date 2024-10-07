@@ -34,7 +34,7 @@ function Project() {
             {/* Projet Kasa */}
             <div className={`project ${collapsed["kasa"] ? "collapsed" : ""}`}>
                 <a className="projet-img" href="https://github.com/Solweg/Kasa" target="_blank" rel="noreferrer">
-                    <img src={kasa} className="zoom" alt="Kasa project thumbnail" width="100%" />
+                    <img src={kasa} className="zoom" alt="Projet Kasa" width="100%" />
                 </a>
                 <div className="projet-description">
                    
@@ -65,7 +65,7 @@ function Project() {
             {/* Projet Booki */}
             <div className={`project ${collapsed["booki"] ? "collapsed" : ""}`}>
                 <a className="projet-img" href="https://github.com/Solweg/Booki" target="_blank" rel="noreferrer">
-                    <img src={Booki} className="zoom" alt="Booki project thumbnail" width="100%" />
+                    <img src={Booki} className="zoom" alt="Projet Booki" width="100%" />
                 </a>
                 <div className="projet-description">
         
@@ -95,7 +95,7 @@ function Project() {
             {/* Projet Sophie Bluel */}
             <div className={`project ${collapsed["sophieBluel"] ? "collapsed" : ""}`}>
                 <a className="projet-img" href="https://github.com/Solweg/Projet-3" target="_blank" rel="noreferrer">
-                    <img src={sophieBluel} className="zoom" alt="Sophie Bluel project thumbnail" width="100%" />
+                    <img src={sophieBluel} className="zoom" alt="Projet Sophie Bluel" width="100%" />
                 </a>
                 <div className="projet-description">
                    
@@ -124,7 +124,7 @@ function Project() {
             {/* Projet Grimoire */}
             <div className={`project ${collapsed["grimoire"] ? "collapsed" : ""}`}>
                 <a className="projet-img" href="https://github.com/Solweg/Grimoire" target="_blank" rel="noreferrer">
-                    <img src={grimoire} className="zoom" alt="Mon vieux grimoire project thumbnail" width="100%" />
+                    <img src={grimoire} className="zoom" alt="Projet mon vieux grimoire" width="100%" />
                 </a>
                 <div className="projet-description">
                    

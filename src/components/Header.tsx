@@ -19,7 +19,7 @@ import Toolbar from '@mui/material/Toolbar';
 const drawerWidth = 240;
 const navItems = [['Compétences', 'expertise'], ['Parcours', 'history'], ['Projets', 'projects'], ['Contact', 'contact']];
 
-function Navigation({parentToChild, modeChange}: any) {
+function Header({parentToChild, modeChange}: any) {
 
   const {mode} = parentToChild;
 
@@ -121,4 +121,4 @@ function Navigation({parentToChild, modeChange}: any) {
   );
 }
 
-export default Navigation;
+export default Header;

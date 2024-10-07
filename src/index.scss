@@ -122,9 +122,9 @@ h1{
     color: white;
   }
   .download-button {
-    border: none;
+    border: solid 2px var(--color5);
     background-color: var(--color2);
-    color: var(--color4);
+    color: white;
     padding: 20px 30px;
     border-radius: 10px;
     font-size: 2rem;
