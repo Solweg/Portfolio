@@ -38,9 +38,10 @@ const labelsThird = [
 function DownloadButton() {
     return (
         <div className="download-container">
-            <a href="../src/assets/Mon-CV.pdf" download="Mon-CV.pdf">
+            <a href={`${process.env.PUBLIC_URL}/Mon-CV.pdf`} download="Mon-CV.pdf">
                 <button className="download-button">Télécharger mon CV</button>
             </a>
+
         </div>
     );
 }
