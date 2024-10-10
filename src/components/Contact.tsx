@@ -16,24 +16,9 @@ function Contact() {
                 <div className="contact-col">
                     <FontAwesomeIcon icon={faEnvelope} size="3x"/>
                     <h2 className="contact-subtitle">Mail</h2>
-                    <a href="mailto:&#104;&#101;%6ce%6e%65g&#111;%75%67&#117;&#101;&#110;h%65%69%6d&#64;&#121;%61%68&#111;%6f%2e&#102;%72">helenegouguenheim&#64;yahoo.fr</a> 
+                    <a href="mailto:&#104;&#101;%6ce%6e%65g&#111;%75%67&#117;&#101;&#110;h%65%69%6d&#64;&#121;%61%68&#111;%6f%2e&#102;%72">helenegouguenheim&#64;gmail.com</a> 
                     
                 </div>
-                <div className="contact-col">
-                    <FontAwesomeIcon icon={faLocationDot} size="3x"/>
-                    <h2 className="contact-subtitle">Adresse</h2>
-                    <p>6 rue de l'ordinateur
-                       <br/>40 400, Baie des Serveurs 
-                    </p>
-                   
-                </div>
-                <div className="contact-col">
-                    <FontAwesomeIcon icon={faPhone} size="3x"/>
-                    <h2 className="contact-subtitle">Téléphone</h2>
-                    <p>06 00 00 00 00</p>
-                    
-                </div>
-
                 
             </div>
         </div>
