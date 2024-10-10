@@ -33,6 +33,7 @@ const labelsThird = [
     "Veille Technologique",
     "Chrome DevTools",
     "Google Analytics",
+    "Prompt engineering",
 ];
 
 function DownloadButton() {
