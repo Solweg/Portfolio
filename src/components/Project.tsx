@@ -42,7 +42,8 @@ function Project() {
                     
                     <p className="project-subtitle">Application de location immobilière</p>
                     <div className="project-buttons">
-                        <a className="project-button" href="https://github.com/Solweg/Kasa">Code Source</a>
+                        <a className="project-button" href="https://github.com/Solweg/Kasa">Code Source</a> 
+                        <a className="project-button" href="https://kasa-two-lovat.vercel.app/">Démo</a>
                     </div>
                     {!collapsed["kasa"] && ( // Si la carte n'est pas collapse
                         <div className="project-content">
