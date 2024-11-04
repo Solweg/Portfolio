@@ -3,6 +3,7 @@ import Booki from '../assets/images/booki.png';
 import kasa from '../assets/images/kasa.png';
 import sophieBluel from '../assets/images/sophieBluel.png';
 import grimoire from '../assets/images/monvieuxgrimoire.png';
+import NinaCarducci from "../assets/images/ninacarducci.png";
 
 import '../assets/styles/Project.scss';
 
@@ -17,7 +18,8 @@ function Project() {
         kasa: true,
         booki: true,
         sophieBluel: true,
-        grimoire: true
+        grimoire: true,
+        nina: true,
     });
 
     const toggleCollapse = (id: string) => {
@@ -146,6 +148,38 @@ function Project() {
                     <div className="collapse-button-container">
                         <span className="collapse-button" onClick={() => toggleCollapse("grimoire")}>
                             {collapsed["grimoire"] ? "Voir plus" : "Voir moins"}
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            {/* Projet Nina-Carducci */}
+            <div className={`project ${collapsed["Nina-Carducci"] ? "collapsed" : ""}`}>
+                <a className="projet-img" href="https://solweg.github.io/nina-carducci.photographe/" target="_blank" rel="noreferrer">
+                    <img src={NinaCarducci} className="zoom" alt="Projet Nina-Carducci" width="100%" />
+                </a>
+                <div className="projet-description">
+                   
+                        <h2>Nina Carducci</h2>
+                    
+                    <p className="project-subtitle">Optimisation d’un site de photographie</p>
+                    <div className="project-buttons">
+                        <a className="project-button" href="https://github.com/Solweg/nina-carducci.photographe">Code Source</a> 
+                        <a className="project-button" href="https://solweg.github.io/nina-carducci.photographe/">Démo</a>
+                    </div>
+                    {!collapsed["nina"] && ( // Si la carte n'est pas collapse
+                        <div className="project-content">
+                            <h3>Problématiques / solutions</h3>
+                            <p>
+                            L'optimisation des performances et de l'accessibilité du site web était essentielle pour améliorer le référencement (SEO) et l'expérience utilisateur. J'ai notamment dû résoudre des problèmes de chargement d'images lourdes et de code non optimisé. L’optimisation des images, la minification des fichiers CSS/JS, ainsi que la mise en place du lazy loading ont permis d’améliorer considérablement les performances du site.
+                            </p>
+                            <h3>Compétences développées</h3>
+                            <p>Maitrise des outils d’analyse de performance (Lighthouse, Wave), optimisation SEO (balises meta, Open Graph), gestion des images (TinyPNG, conversion WebP), mise en place du responsive design et amélioration de l’accessibilité.</p>
+                        </div>
+                    )}
+                    <div className="collapse-button-container">
+                        <span className="collapse-button" onClick={() => toggleCollapse("nina")}>
+                            {collapsed["nina"] ? "Voir plus" : "Voir moins"}
                         </span>
                     </div>
                 </div>
