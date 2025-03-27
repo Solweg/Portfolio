@@ -7,7 +7,7 @@
         color: var(--color3);
     }
 }
-  
+
 .skills-container .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,7 +15,18 @@
     max-width: 1800px;
 
 }
-  
+
+.Accroche-container{
+    display: flex;
+    justify-content: center;
+    
+    .Accroche{
+        color: var(--color3);
+        max-width: 80%;
+    }
+}
+
+
 .skills-container .skills-grid .skill {
     align-items: center;
 }

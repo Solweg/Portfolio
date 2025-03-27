@@ -19,7 +19,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/lngouguenheim" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Hélène Gouguenheim</h1>
-          <p>DévOps Fullstack en recherche d'alternance</p>
+          <p>Développeuse Web Full Stack Junior, orientée DevOps</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Solweg" target="_blank" rel="noreferrer"><GitHubIcon/></a>
