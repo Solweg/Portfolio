@@ -1,88 +1,93 @@
 .skills-container {
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
 
-    svg {
-        color: var(--color3);
-    }
+  svg {
+    color: var(--color3);
+  }
 }
 
 .skills-container .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    max-width: 1800px;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  max-width: 1800px;
 }
 
-.Accroche-container{
-    display: flex;
-    justify-content: center;
-    
-    .Accroche{
-        color: var(--color3);
-        max-width: 80%;
-    }
-}
+.Accroche-container {
+  display: flex;
+  justify-content: center;
 
+  .Accroche {
+    color: var(--color3);
+    max-width: 80%;
+  }
+}
 
 .skills-container .skills-grid .skill {
-    align-items: center;
+  align-items: center;
 }
-  
+
 .chip {
-    color: var(--color6) !important;
-    background-color: var(--color3) !important;
-    font-size: 0.8rem !important;
-    height: 25px !important;
-  
-    span {
-        font-family: 'Courier Prime', monospace;
-        color: var(--color6);
-    }
-  
-    svg {
-        height: 15px !important;
-    }
+  color: var(--color6) !important;
+  background-color: var(--color3) !important;
+  font-size: 0.8rem !important;
+  height: 25px !important;
+
+  span {
+    font-family: "Courier Prime", monospace;
+    color: var(--color6);
+  }
+
+  svg {
+    height: 15px !important;
+  }
 }
 
 .flex-chips {
-    line-height: 2;
-    margin: 0.5;
+  line-height: 2;
+  margin: 0.5;
 
-    .chip-title {
-        color: var(--color3);
-        padding-right: 10px;
-    }
+  .chip-title {
+    color: var(--color3);
+    padding-right: 10px;
+  }
 }
 
 .flex-chips .MuiChip-root {
-    margin-right: 0.5em;
+  margin-right: 0.5em;
 }
 
 .flex-chips .MuiChip-outlined {
-    background-color: #e0e0e0;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+  background-color: #e0e0e0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .flex-chips .MuiChip-outlined span {
-    color: var(--color6);
+  color: var(--color6);
 }
-.light-mode {
-.skills-container, .container-contact{
 
-    svg, h2, h3{
+.light-mode {
+  .skills-container,
+  .container-contact {
+    svg,
+    h2,
+    h3 {
       color: var(--color2);
     }
-}
+  }
+  .Accroche-container {
+    .Accroche {
+      color: var(--color2);
+    }
+  }
 }
 
 .download-container {
   text-align: center;
   margin: 100px 0 0px;
-
 }
 
 .download-button {
@@ -93,35 +98,35 @@
   border-radius: 10px;
   font-size: 2rem;
   cursor: pointer;
-  transition:  0.3s ease;
+  transition: 0.3s ease;
 }
 
 .download-button:hover {
-    border: solid 2px var(--color5);
-    background-color: var(--color3);
-    color: var(--color5);
+  border: solid 2px var(--color5);
+  background-color: var(--color3);
+  color: var(--color5);
 }
 
 @media screen {
-    @media (max-width: 1200px) {
-        .skills-container {
-            display: block;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-    
-        .skills-container .skills-grid {
-            grid-template-columns: 1fr;
-        }
-        
-        .skills-container .skills-grid .skill {
-            padding-bottom: 5%;
-        }
+  @media (max-width: 1200px) {
+    .skills-container {
+      display: block;
+      padding-left: 5%;
+      padding-right: 5%;
     }
 
-    @media (max-width: 567px) {
-        .skills {
-            font-size: 12px;
-        }
+    .skills-container .skills-grid {
+      grid-template-columns: 1fr;
     }
+
+    .skills-container .skills-grid .skill {
+      padding-bottom: 5%;
+    }
+  }
+
+  @media (max-width: 567px) {
+    .skills {
+      font-size: 12px;
+    }
+  }
 }
