@@ -13,12 +13,15 @@ const labelsFirst = [
     "HTML5",
     "CSS3",
     "SASS",
+    "Wordpress",
 
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
+    "PHP",
+    "Algorithmie",
     "PostgreSQL",
     "MySQL",
     "Postman",
