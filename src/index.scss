@@ -2,7 +2,7 @@
   --color1:#010101ff;
   --color2: #0a5a5a;;
   --color3:#88bba9;
-  --color4: #eedec5;
+  --color4: #faece2;
   --color5: #042e2e;
   --color6:rgb(39, 40, 34); 
   --color7: #525659ff;
@@ -119,7 +119,7 @@ h1{
     color: var(--color6);
   }
   .about-section .content h1 {
-    color: white;
+    color: var(--color2);
   }
   .download-button {
     border: solid 2px var(--color5);
@@ -158,8 +158,8 @@ h1{
       
     }
     h1, p {
-      color: white;
-      text-shadow: 0px 0px 10px #000000ee;
+      color: var(--color2);
+      padding-right: 20px;
     }
   }
 
