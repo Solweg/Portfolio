@@ -1,3 +1,21 @@
+.navigation-bar button {
+  color: var(--color2);
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--color3); // Couleur au survol
+    background-color: var(--color4); // Fond au survol
+  }
+}
+.dark-mode .navigation-bar button {
+  color: var(--color4); // Couleur par défaut en mode sombre
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--color3); // Couleur au survol en mode sombre
+    background-color: rgba(0, 0, 0, 0.2); // Fond au survol en mode sombre
+  }
+}
 .dark-mode .about-section {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -79,7 +97,7 @@
 }
 
 .dark-mode .about-background {
-  background-color:rgba(1, 26, 26, 0.7);
+  background-color:rgba(0, 0, 0, 0.7)
 }
 
 .about p {
