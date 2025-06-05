@@ -14,6 +14,7 @@ const labelsFirst = [
     "CSS3",
     "SASS",
     "Wordpress",
+    "Angular",
 
 ];
 
@@ -57,6 +58,7 @@ function Expertise() {
                 <div className="Accroche-container">
                     <p className="Accroche">Chats, café et code : ma recette pour relever tous les défis. Étudiante DevOps Full Stack à l'EPSI Rennes, je recherche une alternance pour septembre 2025, au rythme de 2 semaines en entreprise / 1 semaine en cours.</p>
                 </div>
+                <DownloadButton />
                 <h1 className="title">Compétences</h1>
                 <div className="skills-grid">
                     <div className="skill">
@@ -97,7 +99,7 @@ function Expertise() {
                 </div>
 
 
-                <DownloadButton />
+                
             </div>
         </div>
     );

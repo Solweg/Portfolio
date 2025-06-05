@@ -1,4 +1,25 @@
 
+.title {
+  font-family: "Poppins", sans-serif; // Police moderne et élégante
+  font-size: 2.5rem; // Taille du texte
+  font-weight: 700; // Texte épais pour un impact visuel
+  color: var(--color3); // Couleur adaptée à votre palette
+  text-align: center; // Centrer le titre
+  margin-bottom: 20px; // Espacement avec les éléments suivants
+  letter-spacing: 0.1em; // Espacement entre les lettres pour un effet moderne
+  text-transform: uppercase; // Mettre le texte en majuscules pour un style impactant
+  position: relative; // Permet d'ajouter des éléments décoratifs
+
+  &::after {
+    content: ""; // Élément décoratif sous le titre
+    display: block;
+    width: 50px; // Largeur de la ligne
+    height: 4px; // Épaisseur de la ligne
+    background-color: var(--color2); // Couleur de la ligne
+    margin: 10px auto 90px; // Centrer la ligne sous le titre
+    border-radius: 2px; // Coins arrondis pour un effet doux
+  }
+}
 .vertical-timeline span {
     color: var(--color3);
     font-family: 'Courier Prime', monospace;
