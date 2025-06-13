@@ -70,10 +70,10 @@
   }
 
   .image-wrapper {
+    display:flex;
     z-index: 2;
     img {
       margin-right: 20px;
-      margin-top: 5px;
       width: 20vw; // Utilisation de vw pour adapter la largeur à la taille de l'écran
       max-width: 300px;
       border-radius: 50%;

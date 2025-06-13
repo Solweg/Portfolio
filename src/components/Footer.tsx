@@ -7,8 +7,8 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="https://github.com/Solweg" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/lngouguenheim" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        <a href="https://github.com/Solweg" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+        <a href="https://www.linkedin.com/in/lngouguenheim" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
       </div>
       <p>Fork du portfolio de <a href="https://github.com/yujisatojr/react-portfolio-template" target="_blank" rel="noreferrer">Yuji Sato</a> modifié en Bretagne</p>
     </footer>
