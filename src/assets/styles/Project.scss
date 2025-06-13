@@ -107,11 +107,11 @@
 
   .project-button {
     background: linear-gradient(90deg, var(--color2) 0%, var(--color3) 100%);
-    color: var(--color4);
+    color: var(--color5);
 
     &:hover {
       background: linear-gradient(90deg, var(--color3) 0%, var(--color2) 100%);
-      color: var(--color5);
+      color: white;
     }
   }
 
