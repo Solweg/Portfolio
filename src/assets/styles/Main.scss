@@ -147,6 +147,7 @@
       justify-content: center; // Centrer verticalement
       align-items: center; // Centrer horizontalement
       padding: 10px; // Réduction des marges pour les mobiles
+      background-attachment: scroll;
       
       h1 {
         font-size: 1.8em; // Ajustement de la taille de la police
@@ -178,6 +179,7 @@
       justify-content: center; // Centrer verticalement
       align-items: center; // Centrer horizontalement
       padding: 10px; // Réduction des marges pour les mobiles
+      background-attachment: scroll;
       .about-background {
         display: flex;
         flex-direction: column;
@@ -186,7 +188,7 @@
       }
 
       h1 {
-        font-size: 1.8em; // Ajustement de la taille de la police
+        font-size: 1.8em !important; // Ajustement de la taille de la police
         text-align: center; // Centrer le texte
       }
   

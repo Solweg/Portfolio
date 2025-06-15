@@ -1,6 +1,7 @@
 .projects-container {
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     background-color: var(--color3); 
     margin: 60px;
     padding: 3% 3%;
@@ -223,6 +224,7 @@
         display: block;
         padding-left: 5%;
         padding-right: 5%;
+        margin: 30px;
     }
 
     .projects-container .projects-grid .project {
